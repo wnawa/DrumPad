@@ -1,7 +1,43 @@
 .App {
   text-align: center;
 }
-
+body {
+  background-color: #282c34;
+  color: white;
+  padding: 40px;
+  font-family: Sans-Serif;
+  text-align: center;
+}
+#drum-machine{
+  
+  height:300px;
+  width:300px;
+  border:3px #000;
+  align:center
+}
+#display{
+   padding:10px;
+  margin:20px;
+  color:#73AD21;
+}
+.clip{
+ position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  border: 3px solid #73AD21;}
+.drum-pad{
+  
+    width:50px;
+  height:50px;
+    background-color:white;
+  padding:15px;
+   border:5px;
+  font:10px;
+  
+    
+    
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
